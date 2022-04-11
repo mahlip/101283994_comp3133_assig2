@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Apollo, gql } from 'apollo-angular';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'week12_angular_apollo_graphql';
+
+  constructor(private apollo: Apollo) { }
+
+  ngOnInit(): void {
+  }
+
+
+
+
+
 }

@@ -1,0 +1,11 @@
+<button mat-raised-button routerLink="/addList" color="primary" >Add Listing</button>
+
+
+  <div class="listing-container" *ngFor="let listing of listings">
+    <h3><strong>Listing title: </strong>{{listing.listing_title}}</h3>
+    <p><strong>Listing description: </strong>{{listing.description}}</p>
+    <p><strong>Price</strong>: ${{listing.price}}</p>
+    <p><strong>Address</strong>: {{listing.street}} {{listing.city}} {{listing.postal_code}}</p>
+    <p><strong>Email</strong>: {{listing.email}}</p>
+    <hr>
+  </div>

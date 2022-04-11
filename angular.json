@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "week12_angular_apollo_graphql": {
+    "101283994_comp3133_assig2": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/week12_angular_apollo_graphql",
+            "outputPath": "dist/101283994_comp3133_assig2",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "week12_angular_apollo_graphql:build:production"
+              "browserTarget": "101283994_comp3133_assig2:build:production"
             },
             "development": {
-              "browserTarget": "week12_angular_apollo_graphql:build:development"
+              "browserTarget": "101283994_comp3133_assig2:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "week12_angular_apollo_graphql:build"
+            "browserTarget": "101283994_comp3133_assig2:build"
           }
         },
         "test": {
@@ -102,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "week12_angular_apollo_graphql"
+  "defaultProject": "101283994_comp3133_assig2"
 }
