@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'week12_angular_apollo_graphql'`, () => {
+  it(`should have as title '101283994_comp3133_assig2'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('week12_angular_apollo_graphql');
+    expect(app.title).toEqual('101283994_comp3133_assig2');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('week12_angular_apollo_graphql app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('101283994_comp3133_assig2 app is running!');
   });
 });
