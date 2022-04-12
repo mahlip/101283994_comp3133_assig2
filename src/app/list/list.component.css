@@ -1,0 +1,55 @@
+@import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
+
+h1 {
+  text-align: center;
+  margin: 4rem;
+  background-color: rgb(224, 212, 212);
+  border-radius: 20px;
+  font-weight: 900;
+}
+
+.mat-elevation-z8 {
+  width: 100%;
+}
+
+mat-header-cell, mat-cell {
+  justify-content: center;
+}
+
+.tableHead {
+  background-color: #f8f991;
+}
+
+
+.test {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+  justify-self: center;
+  padding-bottom: 10px;
+
+}
+.div {
+   
+
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    justify-self: center;
+  }
+
+  mat-button-toggle-group {
+    margin-right: 10px;
+  }
+.listing-container {
+  margin: 30px;
+  border: 5px solid #cec3c1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  vertical-align: middle;
+  justify-self: center;
+}

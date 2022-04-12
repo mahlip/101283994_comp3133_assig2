@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #cec3c1;
+    color: #f4f4f4;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  
+  a {
+    color: #f0efef;
+    text-decoration: none;
+  }
+  

@@ -3,30 +3,24 @@
   
     <form [formGroup]="signUpForm" (ngSubmit)="signUp()">
       <mat-form-field appearance="fill">
-        <mat-label>Username</mat-label>
         <input matInput formControlName="username" required placeholder="Enter username">
       </mat-form-field>
       <mat-form-field appearance="fill">
-        <mat-label>First Name</mat-label>
-        <input matInput formControlName="firstname" required>
+        <input matInput formControlName="firstname" required placeholder="Enter First Name">
       </mat-form-field>
       <mat-form-field appearance="fill">
-        <mat-label>Last Name</mat-label>
-        <input matInput formControlName="lastname" required>
+        <input matInput formControlName="lastname" required placeholder="Enter Last Name">
       </mat-form-field>
       <mat-form-field appearance="fill">
-        <mat-label>Email</mat-label>
-        <input matInput formControlName="email" required>
+        <input matInput formControlName="email" required placeholder="Enter Email">
       </mat-form-field>
       <mat-form-field appearance="fill">
-        <mat-label>Password</mat-label>
-        <input matInput type="password" formControlName="password" required/>
+        <input matInput type="password" formControlName="password" required placeholder="Enter Password"/>
       </mat-form-field>
       <mat-form-field appearance="fill">
-        <mat-label>Select</mat-label>
         <mat-select required formControlName="type">
-          <mat-option value="customer">Customer</mat-option>
-          <mat-option value="admin">Admin</mat-option>
+          <mat-option value="Customer">Customer</mat-option>
+          <mat-option value="Admin">Admin</mat-option>
         </mat-select>
       </mat-form-field>
       <button mat-raised-button color="primary" type="submit">Sign Up</button>

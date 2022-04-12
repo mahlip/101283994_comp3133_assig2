@@ -1,1 +1,14 @@
-<p>navbar works!</p>
+<div class="navbar">
+    <nav>
+      <ul>
+        <li><a routerLink="/">Homepage</a></li>
+        <li><a routerLink="/list"> View Listings</a></li>
+        <li *ngIf="!loggedIn"><a routerLink="/login">Login</a></li>
+        <li *ngIf="!loggedIn"><a routerLink="/signup">Sign Up</a></li>
+        <li *ngIf="loggedIn"><a routerLink="/history"> View Bookings</a></li>
+        <li style="float: right;" *ngIf="loggedIn"><a (click)="logout()">Logout</a></li>
+        <li *ngIf="isAdmin"><a routerLink="/admin">My Listings</a></li>
+      </ul>
+    </nav>
+  </div>
+  

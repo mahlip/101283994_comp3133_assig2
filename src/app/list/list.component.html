@@ -2,11 +2,11 @@
     <div>
     <form [formGroup]="searchForm" (ngSubmit)="search()">
       <mat-form-field appearance="fill" style="width: 100%">
-        <mat-label>Search</mat-label>
-        <input matInput formControlName="search" />
+        <mat-label aria-placeholder="Enter your Search">S</mat-label>
+        <input matInput formControlName="search"/>
       </mat-form-field>
       <br/>
-      <mat-button-toggle-group formControlName="condition">
+      <mat-button-toggle-group formControlName="criteria">
         <mat-button-toggle value="name">Name</mat-button-toggle>
         <mat-button-toggle value="city">City</mat-button-toggle>
         <mat-button-toggle value="postalCode">Postal Code</mat-button-toggle>

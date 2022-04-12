@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .mat-elevation-z8 {
+    width: 100%;
+  }
+  
+  mat-header-cell, mat-cell {
+    justify-content: center;
+  }
+  
+  .tableHead {
+    background-color: #f8f991;
+  }
+  
+  
+  .test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    justify-self: center;
+    padding-bottom: 10px;
+  
+  }
+  div {
+    border: 5px solid green;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    justify-self: center;
+  }
+  .mat-button-toggle-group {
+    margin-right: 10px;
+  }
+  .listing-container {
+    margin: 30px;
+    border: 5px solid green;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    vertical-align: middle;
+    justify-self: center;
+  }
+  
+  

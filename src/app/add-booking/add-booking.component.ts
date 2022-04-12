@@ -38,7 +38,7 @@ export class AddBookingComponent implements OnInit {
   `
   private GET_BOOKINGS = gql`
     query Query($userId: String!){
-      getBookings{
+      getBookingsByUser(userId: $userId){
         listing_id
         booking_id
         booking_date

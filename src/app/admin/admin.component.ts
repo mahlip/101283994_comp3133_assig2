@@ -12,8 +12,8 @@ import { AuthService } from '../services/auth.service';
 export class AdminComponent implements OnInit {
 
   private GET_ADMIN_LISTINGS = gql`
-    query Query($username: String!){
-        getListingsByAdmin{
+    query Query($userId: String!){
+        getListingsByAdmin(userId: $userId){
           id
           listing_id
           listing_title

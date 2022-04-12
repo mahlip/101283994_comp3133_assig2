@@ -17,7 +17,7 @@ export class BookingHistoryComponent implements OnInit {
   authenticated = false;
 
   private GET_BOOKINGS = gql`
-    query Query($userId: String!){
+    query{
       getBookings{
         listing_id
         booking_id
@@ -55,7 +55,7 @@ export class BookingHistoryComponent implements OnInit {
     this.apollo.watchQuery({
       query: this.GET_BOOKINGS,
       variables: {
-        userId: this.authService.getUserId()
+        
       }
     }).valueChanges.subscribe((res: any ) => {
       this.bookings = res.data.getBookingsByUser;

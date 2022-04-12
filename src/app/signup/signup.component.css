@@ -1,0 +1,26 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    justify-self: center;
+    font-size: larger;
+  }
+  
+  div {
+    padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      vertical-align: middle;
+      justify-content: center;
+  
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+  
+  }
